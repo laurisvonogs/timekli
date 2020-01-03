@@ -1,0 +1,295 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container{
+  padding-top: 10px;
+  width: 97%;
+  margin:auto;
+  overflow: hidden;
+}
+
+header{
+  background: #35424a;
+  border-bottom: #e8491d 2px solid;
+}
+
+header li a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 10px 0 20px;
+}
+.nav ul{
+  margin-right: 120px;
+}
+
+.nav-eng li a{
+  padding: 0 7px 0 7px;
+}
+
+header img{
+  margin-top: 5px;
+  float: left;
+  color: white;
+  width: 150px;
+  height: auto;
+}
+
+header nav{
+  margin-top: -5px;
+}
+
+section{font-size: 20px;}
+
+.flags img{
+  width: 25px;
+  height: auto;
+  float: right;
+}
+
+.language{
+  float: right;
+  color: #ffffff;
+  border-radius: 15px;
+  border: 2px solid #e8491d;
+  padding: 5px 10px 5px 10px;
+  margin-top: -15px;
+  margin-bottom: 10px;
+}
+
+#nav {
+   width: 100%;
+   display: inline-block;
+   text-align: center;
+   padding: 0;
+   list-style: none;
+   background-color: #f2f2f2;
+   border-bottom: 1px solid #ccc;
+   border-top: 1px solid #ccc;
+   margin-left: 0px;  // looks like bootstrap is putting a left margin on your #nav you may want it off.
+
+}
+#nav li {
+  display: inline-block;
+  text-align:center;
+}
+
+.language p{
+  margin-top: -5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.language img{
+  float: left;
+  display: inline;
+  padding: 0px 5px 5px 5px;
+  margin-top: -10px;
+}
+
+#flags-eng img{
+  padding-left: 15px;
+}
+
+.hero-home {
+    background: linear-gradient(rgba(192,192,192,.7), rgba(192,192,192,.7)), url("../img/home.png");
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero-monday {
+    background: linear-gradient(rgba(192,192,192,.5), rgba(192,192,192,.5)), url("../img/monday.png");
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero-tuesday {
+    background: linear-gradient(rgba(192,192,192,.5), rgba(192,192,192,.5)), url("../img/tuesday.png");
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero-wednesday {
+    background: linear-gradient(rgba(192,192,192,.5), rgba(192,192,192,.5)), url("../img/wednesday.png");
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero-thursday {
+    background: linear-gradient(rgba(192,192,192,.5), rgba(192,192,192,.5)), url("../img/thursday.png");
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero-friday {
+    background: linear-gradient(rgba(192,192,192,.5), rgba(192,192,192,.5)), url("../img/friday.png");
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero-saturday {
+    background: linear-gradient(rgba(192,192,192,.5), rgba(192,192,192,.5)), url("../img/saturday.png");
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero-sunday {
+    background: linear-gradient(rgba(192,192,192,.5), rgba(192,192,192,.9)), url("../img/sunday.png");
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#header-text{
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+#author{
+  float: left;
+  padding-left: 10px;
+}
+
+#date-created{
+  float: right;
+  padding-right: 10px;
+}
+
+#footer p{
+  display: inline-block;
+  vertical-align: top;
+  font-weight: bold;
+}
+
+.body-text{
+  text-indent: 50px;
+  margin-left: 20px;
+  margin-right: 10px;
+  font-size: 22px;
+  font-family: 'Inder', sans-serif;
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+
+.home-body-text{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.home-body-text em{
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.body-text h4{
+  font-family: 'Arial';
+  text-align: center;
+  margin-left: -50px;
+}
+
+.column {
+  float: left;
+  width: 31%;
+  margin-right: 30px;
+}
+
+.column p {
+  text-align: justify;
+}
+
+.clock{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  max-width:200px;
+  height:auto;
+}
+
+.column em{
+  font-style: italic;
+}
+
+#bold{
+  font-weight: bold;
+  font-size: 25px;
+}

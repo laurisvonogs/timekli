@@ -9,14 +9,16 @@ body{
 }
 
 .container{
-  padding-top: 10px;
-  width: 97%;
+  width: 95%;
   margin:auto;
-  overflow: hidden;
+  position: relative;
 }
 
 header{
   background: #35424a;
+  color: #ffffff;
+  padding-top: 15px;
+  min-height: 70px;
   border-bottom: #e8491d 2px solid;
 }
 
@@ -24,20 +26,25 @@ header li a{
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 19px;
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+}
+.test{
+  float: left;
+}
+
+.test img{
+  margin: 0;
 }
 
 header li{
   float: left;
   display: inline;
   padding: 0 10px 0 20px;
-}
-.nav ul{
-  margin-right: 120px;
-}
-
-.nav-eng li a{
-  padding: 0 7px 0 7px;
 }
 
 header img{
@@ -46,10 +53,6 @@ header img{
   color: white;
   width: 150px;
   height: auto;
-}
-
-header nav{
-  margin-top: -5px;
 }
 
 section{font-size: 20px;}
@@ -61,16 +64,22 @@ section{font-size: 20px;}
 }
 
 .language{
+    position: absolute;
   float: right;
   color: #ffffff;
   border-radius: 15px;
   border: 2px solid #e8491d;
-  padding: 5px 10px 5px 10px;
-  margin-top: -15px;
-  margin-bottom: 10px;
+    padding: 5px 10px 5px 10px;
+  top: 0;
+  right: 10px;
+}
+
+.language div{
+  margin: 0;
 }
 
 #nav {
+   margin-top: -5px;
    width: 100%;
    display: inline-block;
    text-align: center;
@@ -80,11 +89,12 @@ section{font-size: 20px;}
    border-bottom: 1px solid #ccc;
    border-top: 1px solid #ccc;
    margin-left: 0px;  // looks like bootstrap is putting a left margin on your #nav you may want it off.
-
 }
-#nav li {
-  display: inline-block;
-  text-align:center;
+
+.nav{
+  position: absolute;
+  left: 140px;
+  right: 130px;
 }
 
 .language p{
@@ -265,15 +275,24 @@ section{font-size: 20px;}
   text-align: center;
   margin-left: -50px;
 }
-
+@media only screen and (min-width: 700px) {
 .column {
   float: left;
   width: 31%;
-  margin-right: 30px;
+  margin-right: 2%;
+}
 }
 
 .column p {
   text-align: justify;
+}
+
+@media only screen and (max-width: 700px) {
+  .column {
+    float: left;
+    width: 100%;
+    margin-right: 2%;
+  }
 }
 
 .clock{
@@ -292,4 +311,35 @@ section{font-size: 20px;}
 #bold{
   font-weight: bold;
   font-size: 25px;
+}
+@media only screen and (min-width: 1200px) {
+  #nav li {
+
+    text-align:center;
+  }
+
+
+.nav-eng li a{
+  padding: 0 7px 0 7px;
+}
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .nav li a{
+    font-size: 15px;
+  }
+
+.nav-eng li a{
+  padding: 0 7px 0 7px;
+}
+#header-text{
+  font-size: 50px;
+}
+}
+
+@media only screen and (max-width: 566.99px) {
+  header{
+    min-height: 150px;
+  }
 }
